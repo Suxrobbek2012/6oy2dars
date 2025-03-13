@@ -18,7 +18,7 @@ function qiyiriq() {
         alert("Iltimos, to‘g‘ri son kiriting!");
     }
 }
-function qiyiriq() {
+function Классиксет() {
     alert("Классик сет narxi 35000 so'm");
     const zakaz = +prompt("Классик сет nechta zakaz qilasiz?");
     const narx = 35000;
@@ -57,7 +57,7 @@ function longer() {
     } else {
         alert("Iltimos, to‘g‘ri son kiriting!");
     }
-}function qiyiriq() {
+}function big() {
     alert("Биг сет narxi 62000 so'm");
     const zakaz = +prompt("Биг сет nechta zakaz qilasiz?");
     const narx = 62000;
@@ -77,7 +77,7 @@ function longer() {
         alert("Iltimos, to‘g‘ri son kiriting!");
     }
 }
-function qiyiriq() {
+function lester() {
     alert("Лестер narxi 53000 so'm");
     const zakaz = +prompt("Лестер nechta zakaz qilasiz?");
     const narx = 53000;
@@ -97,7 +97,7 @@ function qiyiriq() {
         alert("Iltimos, to‘g‘ri son kiriting!");
     }
 }
-function qiyiriq() {
+function skul() {
     alert("Скул сет narxi 36000 so'm");
     const zakaz = +prompt("Скул сет nechta zakaz qilasiz?");
     const narx = 36000;
@@ -117,7 +117,7 @@ function qiyiriq() {
         alert("Iltimos, to‘g‘ri son kiriting!");
     }
 }
-function qiyiriq() {
+function kombo() {
     alert("Комбо сет Большой narxi 20000 so'm");
     const zakaz = +prompt("Комбо сет Большой nechta zakaz qilasiz?");
     const narx = 20000;
@@ -137,7 +137,7 @@ function qiyiriq() {
         alert("Iltimos, to‘g‘ri son kiriting!");
     }
 }
-function qiyiriq() {
+function dostlar2() {
     alert("Do’stlar 1х narxi 43000 so'm");
     const zakaz = +prompt("Do’stlar 1х nechta zakaz qilasiz?");
     const narx = 43000;
@@ -157,7 +157,27 @@ function qiyiriq() {
         alert("Iltimos, to‘g‘ri son kiriting!");
     }
 }
-function qiyiriq() {
+function dostlar1() {
+    alert("Qiyqiriq narxi 43000 so'm");
+    const zakaz = +prompt("Qiyqiriq nechta zakaz qilasiz?");
+    const narx = 43000;
+
+    if (!isNaN(zakaz) && zakaz > 0) {
+        alert(`${zakaz} ta Qiyqiriq narxi ${zakaz * narx} so'm bo'ladi`);
+        const savol = confirm("Zakaz qilasizmi? ");
+        switch(savol){
+            case true:
+                alert("Zakaz qabul qilindi")
+                break;
+                default:
+                    alert("Zakaz bekor qilindi")
+                    break;
+        }
+    } else {
+        alert("Iltimos, to‘g‘ri son kiriting!");
+    }
+}
+function dostlar2() {
     alert("Do’stlar 2х narxi 79000 so'm");
     const zakaz = +prompt("Do’stlar 2х nechta zakaz qilasiz?");
     const narx = 79000;
@@ -177,7 +197,7 @@ function qiyiriq() {
         alert("Iltimos, to‘g‘ri son kiriting!");
     }
 }
-function qiyiriq() {
+function dostlar4() {
     alert("Do’stlar 4х narxi 145000 so'm");
     const zakaz = +prompt("Do’stlar 4х nechta zakaz qilasiz?");
     const narx = 145000;
@@ -204,26 +224,6 @@ function qiyiriq() {
 
     if (!isNaN(zakaz) && zakaz > 0) {
         alert(`${zakaz} ta Острый Do’stlar 1х narxi ${zakaz * narx} so'm bo'ladi`);
-        const savol = confirm("Zakaz qilasizmi? ");
-        switch(savol){
-            case true:
-                alert("Zakaz qabul qilindi")
-                break;
-                default:
-                    alert("Zakaz bekor qilindi")
-                    break;
-        }
-    } else {
-        alert("Iltimos, to‘g‘ri son kiriting!");
-    }
-}
-function qiyiriq() {
-    alert("Qiyqiriq narxi 43000 so'm");
-    const zakaz = +prompt("Qiyqiriq nechta zakaz qilasiz?");
-    const narx = 43000;
-
-    if (!isNaN(zakaz) && zakaz > 0) {
-        alert(`${zakaz} ta Qiyqiriq narxi ${zakaz * narx} so'm bo'ladi`);
         const savol = confirm("Zakaz qilasizmi? ");
         switch(savol){
             case true:
